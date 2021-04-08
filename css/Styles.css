@@ -1,0 +1,19 @@
+body{
+    background-color:black
+}
+.d-block{
+    height: 500px;
+}
+#relampago{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.referencia{
+    font-size: 15px;
+    color: cornsilk;
+}
+footer{
+    padding: 70px;
+}
+.row{
+    border-radius: 5px
+}
