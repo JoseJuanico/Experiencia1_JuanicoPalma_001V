@@ -12,8 +12,43 @@ body{
     color: cornsilk;
 }
 footer{
-    padding: 70px;
+    padding: 15px;
 }
 .row{
     border-radius: 5px
+}
+.titulos{
+    text-align: center;
+}
+.imgIndex{
+    border-radius: 25px;
+}
+.imgIndex:hover{
+    opacity: 0.5;
+}
+.card-img-top{
+    height: 225px;
+}
+.col-sm{
+    margin: 25px
+}
+.fila{
+    margin: auto;
+    padding: auto
+}
+.copyright{
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 22, 22)
+}
+.card-text{
+    text-align: center;
+    color: rgb(24, 22, 22);
+    font-family: fantasy;
+}
+.card{
+    height: 480px;
 }
