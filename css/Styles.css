@@ -1,15 +1,26 @@
 body{
-    background-color:black
+    background-color: black;
 }
 .d-block{
     height: 500px;
 }
-#relampago{
+.relampago{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    color: brown;
+    font-weight: bold; /*letra en negrita*/
 }
-.referencia{
-    font-size: 15px;
-    color: cornsilk;
+.parrafoCarrousel{
+    color: rgb(207, 129, 11);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px brown; /* se le da sombra de color brown*/
+}
+
+.plan{
+    color:brown;
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 footer{
     padding: 15px;
@@ -19,6 +30,11 @@ footer{
 }
 .titulos{
     text-align: center;
+    padding: 40px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(65, 9, 9);
+    text-shadow: 1px 1px 1px rgb(65, 7, 7);
 }
 .imgIndex{
     border-radius: 25px;
@@ -31,10 +47,6 @@ footer{
 }
 .col-sm{
     margin: 25px
-}
-.fila{
-    margin: auto;
-    padding: auto
 }
 .copyright{
     text-align: center;
