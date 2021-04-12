@@ -39,14 +39,9 @@ footer{
 .imgIndex{
     border-radius: 25px;
 }
-.imgIndex:hover{
-    opacity: 0.5;
-}
+
 .card-img-top{
     height: 225px;
-}
-.col-sm{
-    margin: 25px
 }
 .copyright{
     text-align: center;
@@ -63,4 +58,48 @@ footer{
 }
 .card{
     height: 480px;
+}
+
+
+.imgIndex:hover{
+    opacity: 0.5;
+}
+
+.image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+.linkInivisible:hover {
+    color: rgb(65, 9, 9);
+    text-decoration: none;
+    opacity: 0.6;
+    
+}
+.linkInivisible{
+    color:rgb(65, 9, 9);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
