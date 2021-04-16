@@ -43,6 +43,13 @@ footer{
 .card-img-top{
     height: 225px;
 }
+.pieTexto{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    padding: 0;
+}
+
+
 .copyright{
     text-align: center;
 }
@@ -59,20 +66,16 @@ footer{
 .card{
     height: 480px;
 }
-
+/*second*/
+.imgQuienSomos{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
 
 .imgIndex:hover{
     opacity: 0.5;
 }
 
-.image{
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
 
 .middle {
     transition: .5s ease;
@@ -85,9 +88,7 @@ footer{
     text-align: center;
 }
 
-.container:hover .image {
-    opacity: 0.3;
-}
+
 
 .container:hover .middle {
     opacity: 1;
@@ -109,7 +110,23 @@ footer{
     color: rgb(145, 143, 137);
     
 }
-.pieTexto{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 70px;
+
+
+
+/*clases*/
+
+/* Invisible texto */
+.linkInvi hover {
+    color: rgb(0, 195, 255);
+    text-decoration: none;
+    
+}
+.linkInvi{
+    color: rgb(0, 195, 255);
+    font-size: 16px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.imgTraining:hover{
+    opacity: 0.5;
 }
